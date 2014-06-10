@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class DetailViewController;
+#import "InputViewController.h"
+#import "ODRefreshControl.h"
+#import "BButton.h"
+#import "TSMessage.h"
 
 @interface MasterViewController : UITableViewController
-
-@property (strong, nonatomic) DetailViewController *detailViewController;
+{
+    NSMutableArray *contractArray;
+    NSMutableArray *textArray;
+    BButton *bbutton;
+}
 
 @end

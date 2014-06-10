@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
 #import "MasterViewController.h"
+#import "Appirater.h"
 
 @implementation AppDelegate
 
@@ -21,6 +21,11 @@
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
+    
+    [Appirater setAppId:@"651999603"]; // アプリを追加したときに与えられる9桁の数字(Apple ID)
+    [Appirater appLaunched:YES];
+    [Appirater setDebug: NO];
+
     return YES;
 }
 
@@ -38,6 +43,7 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
+    [Appirater appEnteredForeground:YES];
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
