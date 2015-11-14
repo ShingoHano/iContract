@@ -9,10 +9,10 @@ So iContract will support the contract management of points "the setting of the 
 "management of the penalty",and "notification of specified days prior to the maturity date".    
 
 
-![Alt text](http://nntp.ie-t.net/images/icontract01.png) 
-![Alt text](http://nntp.ie-t.net/images/icontract02.png)  
-![Alt text](http://nntp.ie-t.net/images/icontract03.png) 
-![Alt text](http://nntp.ie-t.net/images/icontract04.png)
+![Alt text](http://priolo.wktk.so/images/icontract01.png) 
+![Alt text](http://priolo.wktk.so/images/icontract02.png)  
+![Alt text](http://priolo.wktk.so/images/icontract03.png) 
+![Alt text](http://priolo.wktk.so/images/icontract04.png)
 
 
 Features
